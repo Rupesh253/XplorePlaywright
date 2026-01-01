@@ -33,7 +33,7 @@ export default defineConfig<TestOptions>({
   testIgnore: './*ignore*.spec.ts',
   captureGitInfo: { commit: true, diff: true },
   retries: process.env.CI ? 2 : 0,
-  workers: process.env.CI ? 1 : 1,
+  workers: process.env.CI ? undefined : 2,
   reporter: process.env.CI
     ? 'blob'
     : [
