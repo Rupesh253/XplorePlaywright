@@ -274,11 +274,11 @@ Notes: Thank you Github Co-pilot for your assitance to print this details from c
 | Device Name | Viewport | Scale Factor | Browser |
 |-------------|----------|--------------|---------|
 | 🖥️ Desktop Chrome | 1280×720 | 1 | chromium |
-| 🖥️ Desktop Chrome HiDPI | 1280×720 | 2 | chromium |
+| 🖥️ Desktop Chrome HiDPI (in mac's Retina Display) | 1280×720 | 2 | chromium |
 | 🖥️ Desktop Edge | 1280×720 | 1 | chromium |
-| 🖥️ Desktop Edge HiDPI | 1280×720 | 2 | chromium |
+| 🖥️ Desktop Edge HiDPI (in mac's Retina Display) | 1280×720 | 2 | chromium |
 | 🖥️ Desktop Firefox | 1280×720 | 1 | firefox |
-| 🖥️ Desktop Firefox HiDPI | 1280×720 | 2 | firefox |
+| 🖥️ Desktop Firefox HiDPI (in mac's Retina Display) | 1280×720 | 2 | firefox |
 | 🖥️ Desktop Safari | 1280×720 | 2 | webkit |
 
 ## Browser Distribution
