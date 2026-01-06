@@ -6,11 +6,17 @@
 𝙋𝙡𝙖𝙮 𝙏𝙞𝙩𝙡𝙚 :  𝚇𝚙𝚕𝚘𝚛𝚎𝙿𝚕𝚊𝚢𝚠𝚛𝚒𝚐𝚑𝚝  
 𝙂𝙚𝙣𝙧𝙚    :  🎬 𝙿𝚕𝚊𝚢  
 𝘼𝙗𝙤𝙪𝙩    :  🎭 𝙿𝚕𝚊𝚢𝚠𝚛𝚒𝚐𝚑𝚝 𝙼𝚊𝚗𝚒𝚊
-𝘾𝙤𝙨𝙩𝙪𝙢𝙚  :  😃 𝙲𝚘𝚖𝚎𝚍𝚢 𝚖𝚊𝚜𝚔, 😦 𝚃𝚛𝚊𝚐𝚎𝚍𝚢 𝚖𝚊𝚜𝚔
 </pre> 
+𝘾𝙤𝙨𝙩𝙪𝙢𝙚 :  
+```diff
++😃 𝙲𝚘𝚖𝚎𝚍𝚢 𝚖𝚊𝚜𝚔
+-😦 𝚃𝚛𝚊𝚐𝚎𝚍𝚢 𝚖𝚊𝚜𝚔
+```
+
 | IMDB | Rotten Tomatoes | IGN |  
 |------|-----------------|-----| 
 | 9.5/10 | 99%  | 9.5/10 |
+
 
 ```
 📅 𝙍𝙚𝙡𝙚𝙖𝙨𝙚 𝘿𝙖𝙩𝙚    : January 1, 2026 (World-wide)
@@ -27,9 +33,11 @@
 ```
 <pre>
 𝘾𝙖𝙨𝙩:    
-Hypocritēs,Thespian,Protagonist,Deuteragonist,Tritagonist,Chorus,Koryphaios,Nuntius,Histriones: Rupesh Kumar Somala  
+Hypocritēs,Thespian,Protagonist,Deuteragonist,Tritagonist,Chorus,Koryphaios,Nuntius,Histriones: ${profile.name}
 𝘾𝙧𝙚𝙬:   
-Choregos,Didaskalia,Aulete,Mechanē,Ekkyklēma,Skēnē: Rupesh Kumar Somala
+Choregos,Didaskalia,Aulete,Mechanē,Ekkyklēma,Skēnē: ${profile.name}(${profile.accountName})
 </pre>
 
-𝘾𝙧𝙚𝙙𝙞𝙩𝙨: Google Gemini for the cast&crew terminology from ancient greek theatres.  
+* ${profile.name}(${profile.accountName})= `Rupesh Kumar Somala(@rupesh253)`
+
+𝘾𝙧𝙚𝙙𝙞𝙩𝙨: `🤖 Google AI Mode` for the cast&crew terminology from ancient greek theatres.  
