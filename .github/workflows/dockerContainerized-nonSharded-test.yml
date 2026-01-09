@@ -5,8 +5,7 @@ on:
   pull_request:
     branches: [ main, master ]
 jobs:
-  playwright:
-    name: 'Containerized+NonSharded Playwright Tests'
+  playwright-tests:
     runs-on: ubuntu-latest
     container:
       image: mcr.microsoft.com/playwright:v1.57.0-noble
