@@ -2,7 +2,7 @@ import { Page } from '@playwright/test';
 
 export class LoginPage {
   private page: Page;
-  public LoginPage(page: Page) {
+  constructor(page: Page) {
     this.page = page;
   }
   //page elements as properties and are initialized upon call.
