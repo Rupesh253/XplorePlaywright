@@ -5,8 +5,8 @@ on:
   pull_request:
     branches: [ main, master ]
 jobs:
-  playwright:
-    name: 'Playwright Tests'
+  playwright-tests:
+    name: 'Containerized+NonSharded Playwright Tests'
     runs-on: ubuntu-latest
     container:
       image: mcr.microsoft.com/playwright:v1.57.0-noble
@@ -25,4 +25,4 @@ jobs:
       with:
         name: playwright-report
         path: playwright-report/
-        retention-days: 30
+        retention-days: 14
