@@ -1,6 +1,8 @@
 # XplorePlaywright
 [![Playwright Tests](https://github.com/Rupesh253/XplorePlaywright/actions/workflows/playwright.yml/badge.svg?branch=main)](https://github.com/Rupesh253/XplorePlaywright/actions/workflows/playwright.yml)
 [![Copilot Setup Steps](https://github.com/Rupesh253/XplorePlaywright/actions/workflows/copilot-setup-steps.yml/badge.svg)](https://github.com/Rupesh253/XplorePlaywright/actions/workflows/copilot-setup-steps.yml)
+[![Containerized+Sharded Playwright Tests](https://github.com/Rupesh253/XplorePlaywright/actions/workflows/dockerContainerized-sharded-test.yml/badge.svg)](https://github.com/Rupesh253/XplorePlaywright/actions/workflows/dockerContainerized-sharded-test.yml)
+[![.github/workflows/dockerContainerized-nonSharded-test.yml](https://github.com/Rupesh253/XplorePlaywright/actions/workflows/dockerContainerized-nonSharded-test.yml/badge.svg)](https://github.com/Rupesh253/XplorePlaywright/actions/workflows/dockerContainerized-nonSharded-test.yml)
 
 <pre>
 𝙋𝙡𝙖𝙮 𝙏𝙞𝙩𝙡𝙚 :  𝚇𝚙𝚕𝚘𝚛𝚎𝙿𝚕𝚊𝚢𝚠𝚛𝚒𝚐𝚑𝚝  
